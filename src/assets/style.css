@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* ============ Custom CSS ============= */
+
+/* Layout */
+
+.layout {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Header */
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  padding: 0 50px;
+  font-size: 24px;
+}
+.header {
+  background-color: #ffffff;
+}
+.global-search {
+  width: 500px;
+}
+
+/* Content */
+.content {
+  min-height: 700;
+  margin: 20px 50px;
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+/* Home */
+.city-card .ant-card-body {
+  display: block;
+  text-align: center;
+}
+
+.city-card button{
+  margin: 0 5px 3px 0;
+}
+
+/* Lost Details */
+
+/* Carousel */
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: 420px;
+  line-height: 420px;
+  background: #364d79;
+  overflow: hidden;
+}
+
+.ant-carousel .slick-slide h3 {
+  color: #fff;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+}
+
+/* Login */
+
+.login_form_wrapper {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login_form {
+  width: 300px;
+  border: 1px solid #dddddd;
+  padding: 16px;
+}
+
+.login_title {
+  text-align: center;
+}
+
+.login_form_forgot {
+  float: right;
+}
+
+.login_form_button {
+  display: block;
+  width: 100%;
+}
